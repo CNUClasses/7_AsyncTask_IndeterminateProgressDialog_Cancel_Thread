@@ -34,14 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         task = new MyTask(this);
         task.execute(NUMBER_UPDATES);
-
-//        runCalcs(NUMBER_UPDATES);
     }
-
-
-    public void doStopCalc(View view) {
-    }
-
 
     private void runCalcs(int numberUpdates) {
         for (int i = 0; i <= numberUpdates; i++) {
